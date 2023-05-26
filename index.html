@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
+    <div class="container">
     <header>
         <h1>Dzień Dziecka</h1>
     </header>
@@ -17,6 +18,21 @@
             <input type="text" placeholder="Janek" required><br>
             <label for="age">Podaj swój wiek</label><br>
             <input type="number" placeholder="12" required><br>
+            <aside>
+                <label for="present">Jaki prezent na dzień dziecka najbardziej by cię uszczęśliwił?</label><br>
+                <section>
+                <label for="">pieniądze</label>
+                <input type="radio" name="present" id="pr1">
+            </section>
+            <section>
+                <label for="">ubrania</label>
+                <input type="radio" name="present" id="pr2">
+            </section>
+            <section>
+                <label for="">inne</label>
+                <input type="radio" name="present" id="pr3">
+            </section>
+            </aside>    
             <label for="opinia">Co według ciebie jest ważne dla młodzieży i dzieci w obecnych czasach?</label><br>
             <textarea name="" id="" cols="60" rows="10" required placeholder="Moim zdaniem..."></textarea>
             <button type="submit">Wyślij</button>
@@ -66,5 +82,6 @@
         <footer>
             <h3>&copy;Krzysztof Paździor 2023r.</h3>
         </footer>
+    </div>
 </body>
 </html>
